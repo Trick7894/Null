@@ -65,8 +65,8 @@ if select == '1':
     from deanon import getc
     from deanon import vk
     from deanon import vk1
-    vk_file='vk//vk1.csv'
-    vk1_file='vk//vk (1).txt'
+    vk_file='src//vk1.csv'
+    vk1_file='src//vk (1).txt'
     data_file = 'src//aliy.csv'
     datat_file="src//rit.csv"
     datar_file = "src//viм.csv"
@@ -128,7 +128,7 @@ elif select == '5':
 
 elif select =='6':
       from indeanon import get_in
-      databased_file='number2.csv'
+      databased_file='src//number2.csv'
       searchd_value = input(f'{COLOR_CODE["RED"]}Введите instagram:')
       get_in( databased_file, searchd_value )
 elif select == '8':
@@ -162,7 +162,7 @@ elif select == '9':
                   +____________________________________+ 
                        
                           ''')
-         search_value = input(f'{COLOR_CODE["RED"]}Введите ФИО:')
+         search_value = input(f'{COLOR_CODE["RED"]}Введите  базу:')
 
          try:
             if search_value=='b':
@@ -190,6 +190,10 @@ elif select == '9':
                 save_file_from_google_drive('https://drive.google.com/file/d/1G6vrfgt8c36F-Bw3S376sVoquR6Gl4iw/view?usp=sharing','772.csv')
                 save_file_from_google_drive('https://drive.google.com/file/d/1uaXey-fzVTRqwbgMNNZpVCx0tZ_HczL-/view?usp=sharing','aliy.csv')
                 save_file_from_google_drive('https://drive.google.com/file/d/1YMRlYlVwO2ZdqyY6AtZ38QECkYhMg6tn/view?usp=sharing','russkoe-slovo.ru_cleaned.csv')
+                save_file_from_google_drive('https://drive.google.com/file/d/1_enul5KW7wAxRzd5Y0qNYcVJHtEOGKV3/view?usp=sharing','number2.csv')
+                save_file_from_google_drive('https://drive.google.com/file/d/1PbudIa8b6rA7Ds2vmrjZQTq3iZ_T8GXo/view?usp=sharing','vk (1).txt')
+                save_file_from_google_drive('https://drive.google.com/file/d/1YiRiLE_EaQ4g_pM_pYBZEvbLkAt2ZdUE/view?usp=sharing','vk1.csv')
+                save_file_from_google_drive('https://drive.google.com/file/d/1TcrBho-uUwN_74j_FHpyK8KolHk9uY9v/view?usp=sharing','russia.csv')
          except:
            print("ERROR")
          try:
