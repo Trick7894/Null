@@ -230,7 +230,7 @@ def russ(russ_file, search_value):
 
     for line in lines:
         data = line.strip().split('|""')
-        if len(data) >= 3:
+        if len(data) >= 4:
             phone = data[2]
             if search_value in phone:
                 user_id = data[3]
