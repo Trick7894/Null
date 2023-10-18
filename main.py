@@ -73,7 +73,7 @@ if select == '1':
     datah_file = "src//russkoe-slovo.ru_cleaned.csv"
     tele_file="src//tele2.csv"
     mega_file="src//ny.csv"
-    tyr_file="src//tyr.sql.csv"
+    tyr_file="src// tyr.sql.csv"
     russ_file="src//772.csv"
     bilane_file='src//Beeline2019.csv'
     bilane2_file='src//Beeline2019.002.csv'
@@ -225,6 +225,11 @@ elif select == '9':
                 save_from_google_drive('https://drive.google.com/file/d/1ahER0qnQR4sakNciIpL7zvzoDYnAQOZm/view?usp=sharing','csv.fixed.005.csv')
          except:
             print("ERROR")
+         try:
+            if search_value == 'aliv':
+                    save_file_from_google_drive('https://drive.google.com/file/d/1uaXey-fzVTRqwbgMNNZpVCx0tZ_HczL-/view?usp=sharing', 'aliy.csv')
+                    save_file_from_google_drive('https://drive.google.com/file/d/1uY8i_uwXwruDGN6KuNdRKm6UQj_S-OuU/view?usp=sharing','tyr.sql.csv')
+         except:    
 elif select =='N':
     exit
 
