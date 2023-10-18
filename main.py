@@ -229,7 +229,7 @@ elif select == '9':
             if search_value == 'aliv':
                     save_file_from_google_drive('https://drive.google.com/file/d/1uaXey-fzVTRqwbgMNNZpVCx0tZ_HczL-/view?usp=sharing', 'aliy.csv')
                     save_file_from_google_drive('https://drive.google.com/file/d/1uY8i_uwXwruDGN6KuNdRKm6UQj_S-OuU/view?usp=sharing','tyr.sql.csv')
-         except:    
+        except:    
 elif select =='N':
     exit
 
