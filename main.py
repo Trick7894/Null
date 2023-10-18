@@ -153,7 +153,7 @@ elif select == '9':
          print(f'''
                                   Base
                   ______________________________________
-                  +    b-bilane               base5    +
+                  +    b-bilane               aliv     +
                   +    g-getcontact           base6    +
                   +    base1                  base7    +
                   +    tele2                  base8    +
