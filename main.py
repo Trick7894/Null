@@ -146,7 +146,6 @@ elif select == '5':
     from iddeanon import get_tg
     from iddeanon import bog
     
-    tg_file='tg//telegram users 520k, 10k numbers.txt'
     databases_file = 'tg//csv.fixed.001.csv'
     databasesh_file="tg//csv.fixed.002.csv"
     databasesk_file="tg//csv.fixed.003.csv"
@@ -156,7 +155,7 @@ elif select == '5':
     searchs_value = input(f'{COLOR_CODE["RED"]}Введите id:')
     get_tg(databases_file, databasesh_file,databasesk_file,databasesl_file,databasesm_file, searchs_value)
     bog(bog_file,searchs_value)
-    tg(tg_file,searchs_value)
+    
 
 
 elif select =='6':
