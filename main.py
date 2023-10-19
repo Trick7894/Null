@@ -145,7 +145,7 @@ elif select =='4':
 elif select == '5':
     from iddeanon import get_tg
     from iddeanon import bog
-    from iddeanon import tg
+    
     tg_file='tg//telegram users 520k, 10k numbers.txt'
     databases_file = 'tg//csv.fixed.001.csv'
     databasesh_file="tg//csv.fixed.002.csv"
